@@ -1,0 +1,49 @@
+* {
+  margin: 0 auto;
+  width: 1440px;
+  font-size: 16px;
+  font-stretch: extra-expanded;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.maincontainer {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  width: 310px;
+  height: 500px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: fixed;
+  top: 10%;
+  border-radius: 15px;
+  left: 30%;
+  right: 50%;
+}
+.img {
+  height: 280px;
+  width: 280px;
+  margin: 15px 15px 0px 15px;
+  border-radius: 10px;
+}
+.letter {
+  position: relative;
+  left: -560px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0px;
+  line-height: 20px;
+  font-stretch: extra-expanded;
+}
+@font-face {
+  font-family: Outfit;
+  src: url(fonts.google.com/specimen/Outfit);
+  font-weight: 400, 700;
+}
+
+@media screen and (max-width: 800px) {
+  .maincontainer {
+    width: 100%;
+  }
+}
